@@ -7,7 +7,7 @@ const STATIC_ASSETS = [
   '/',
   '/index.html',
   '/manifest.json',
-  '/icons/icon.svg'
+  '/icons/cropped-icon_sdy.png'
 ];
 
 // Install event - cache static assets
@@ -114,3 +114,4 @@ self.addEventListener('fetch', (event) => {
   // Default: network first
   event.respondWith(fetch(request));
 });
+
